@@ -1,0 +1,57 @@
+
+[
+  {
+    "iconName": "LayoutTemplate",
+    "skillName": "Frontend Development",
+    "descriptionPoints": [
+      "React.js & Next.js",
+      "Tailwind CSS & Framer Motion",
+      "Responsive UI/UX Design"
+    ]
+  },
+  {
+    "iconName": "Server",
+    "skillName": "Backend Architecture",
+    "descriptionPoints": [
+      "Node.js & Express",
+      "RESTful APIs & GraphQL",
+      "Serverless Functions"
+    ]
+  },
+  {
+    "iconName": "Database",
+    "skillName": "Database Management",
+    "descriptionPoints": [
+      "PostgreSQL & MySQL",
+      "MongoDB & NoSQL",
+      "Prisma ORM"
+    ]
+  },
+  {
+    "iconName": "Wrench",
+    "skillName": "DevOps & Tools",
+    "descriptionPoints": [
+      "Git & GitHub Actions",
+      "Docker & Containerization",
+      "Vercel & AWS Deployment"
+    ]
+  },
+  {
+    "iconName": "Smartphone",
+    "skillName": "Mobile Development",
+    "descriptionPoints": [
+      "React Native",
+      "Cross-platform Apps",
+      "Mobile-first Design"
+    ]
+  },
+  {
+    "iconName": "Figma",
+    "skillName": "UI/UX Design",
+    "descriptionPoints": [
+      "Wireframing & Prototyping",
+      "Design Systems",
+      "User Journey Mapping"
+    ]
+  }
+]

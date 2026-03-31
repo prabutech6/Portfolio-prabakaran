@@ -1,0 +1,43 @@
+
+[
+  {
+    "projectName": "E-Commerce Platform",
+    "description": "A full-stack e-commerce solution with real-time inventory, secure payment processing, and an intuitive admin dashboard.",
+    "tools": [
+      { "iconName": "Code2", "toolName": "React" },
+      { "iconName": "Database", "toolName": "PostgreSQL" },
+      { "iconName": "CreditCard", "toolName": "Stripe" }
+    ],
+    "link": "#"
+  },
+  {
+    "projectName": "Task Management App",
+    "description": "A collaborative task manager featuring drag-and-drop Kanban boards, real-time updates, and team workspaces.",
+    "tools": [
+      { "iconName": "LayoutDashboard", "toolName": "Next.js" },
+      { "iconName": "Zap", "toolName": "Socket.io" },
+      { "iconName": "Wind", "toolName": "Tailwind" }
+    ],
+    "link": "#"
+  },
+  {
+    "projectName": "AI Content Generator",
+    "description": "An AI-powered SaaS tool that helps marketers generate blog posts, social media copy, and ad creatives in seconds.",
+    "tools": [
+      { "iconName": "Bot", "toolName": "OpenAI API" },
+      { "iconName": "Server", "toolName": "Node.js" },
+      { "iconName": "Box", "toolName": "Docker" }
+    ],
+    "link": "#"
+  },
+  {
+    "projectName": "Crypto Portfolio Tracker",
+    "description": "A mobile-responsive dashboard tracking cryptocurrency investments with live charts and price alerts.",
+    "tools": [
+      { "iconName": "LineChart", "toolName": "Recharts" },
+      { "iconName": "Globe", "toolName": "Web3.js" },
+      { "iconName": "Layers", "toolName": "Framer Motion" }
+    ],
+    "link": "#"
+  }
+]
