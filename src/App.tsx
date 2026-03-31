@@ -4,6 +4,7 @@ import { ChevronDown, Mail, Github, Linkedin, FileText } from 'lucide-react';
 // Components
 import { CustomCursor } from './components/CustomCursor';
 import { RippleBackground } from './components/RippleBackground';
+import { WaterRippleBackground } from './components/WaterRippleBackground.jsx';
 import { Navbar } from './components/Navbar';
 import { SkillCard } from './components/SkillCard';
 import { ProjectCard } from './components/ProjectCard';
@@ -12,6 +13,8 @@ import { ContactForm } from './components/ContactForm';
 import infoData from './data/info.json';
 import skillsData from './data/skills.json';
 import projectsData from './data/projects.json';
+// Images
+import myImage from './images/myimage.jpeg';
 export function App() {
   const scrollTo = (id: string) => {
     const element = document.getElementById(id);
@@ -30,7 +33,11 @@ export function App() {
         id="home"
         className="relative h-screen flex flex-col items-center justify-center overflow-hidden">
         
-        <RippleBackground />
+        {/* Water Ripple Background with Image */}
+        <WaterRippleBackground backgroundImage={myImage} />
+        
+        {/* Background Overlay for text readability */}
+        <div className="absolute inset-0 bg-black/30 z-5" />
 
         <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
           <motion.div
